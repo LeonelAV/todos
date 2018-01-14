@@ -6,6 +6,7 @@ class App extends Component {
     return (
       <div className="App">
       <h1>Hello world</h1>
+      <p>{this.props.msg}</p>
       </div>
     );
   }
