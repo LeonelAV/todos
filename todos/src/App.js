@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div>
         <h1>ToDO App</h1>
-        <AddNewtask />
+        <AddNewTask />
         <ToDoAppList />
       </div>
     );
