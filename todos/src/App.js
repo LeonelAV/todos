@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import AddNewTask from './AddTask';
-import ToDoAppList from './ToDoListApp';
+import {AddNewTask} from './AddTask';
+import {ToDoAppList} from './ToDoListApp';
 
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
       <div>
         <h1>ToDO App</h1>
         <AddNewTask />
-        <ToDoAppList />
+        <ToDoAppList tasks={this.props.tasks}/>
       </div>
     );
   }

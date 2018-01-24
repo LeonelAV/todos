@@ -5,11 +5,11 @@ export class ToDoAppList extends Component {
     super();
   }
   render() {
-    //items = this.props.tasks.map(()=> return <li>items)
+     var items = this.props.tasks
     return (
+
       <ul>
-        <li>Task 1 </li>
-        <li>Task 2</li>
+
       </ul>
     );
   }

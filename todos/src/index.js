@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import App from './App';
 
-ReactDOM.render(<App msg='i like cheese'/>,
+var tasksList = ["task 1", "Task 2"]
+
+ReactDOM.render(<App tasks={tasksList}/>,
  document.getElementById('root'));
 
