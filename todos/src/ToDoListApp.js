@@ -5,8 +5,8 @@ export class ToDoAppList extends Component {
     super();
   }
   render() {
-    var items = this.props.tasks.map((elem) => {
-      return <li>{elem}</li>
+    var items = this.props.tasks.map((elem, i) => {
+      return <li key={i}>{elem}</li>
     })
     return (
       <ul>
